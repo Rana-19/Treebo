@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 234, 234);
+
+}
+.nav-bar{
+    width: 100%;
+    height: 280px;
+    background-image: url(./images/navbg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.nav1{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.nav1 nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.nav1  nav img{
+    width: 10%;
+    height: 80%;
+}
+.nav-end{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-end a{
+    text-decoration: none;
+    color: white;
+    font-size: 12x;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav2{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.nav2 p{
+    font-size: 20px;
+    color: white;
+}
+.nav2 h3{
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+}
+.nav2 nav{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2 nav input{
+    width: 350px;
+    height: 50%;
+}
+#ip1{
+    width: 250px;
+    height: 50%;
+}
+.nav2 nav select{
+    width: 250px;
+    height: 50%;
+}
+.nav2 nav button{
+    width: 200px;
+    height: 50%;
+    background-color: rgb(125, 236, 169);
+    color: white;
+    border: none;
+}
+.cities{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(145, 138, 138);
+    padding-inline: 100px;
+    z-index: 1;
+    background-color: white;
+}
+.cities a{
+    text-decoration: none;
+    color: rgb(105, 100, 100);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cities a:hover{
+    color:  rgb(50, 48, 48);;
+}
+.discount{
+    margin-top: 20px;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(93, 61, 139);
+
+}
+.disc{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 1px dashed rgb(214, 214, 214);
+    border-bottom: 1px dashed rgb(214, 214, 214);
+}
+.disc a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.disc a span{
+    font-size: 14px;
+}
+.disc button{
+    width: 10%;
+    color: white;
+    height: 60%;
+    background-color:  rgb(127, 103, 160);
+    border: 1px solid white;
+}
+.video-div{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.txtpt{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtpt img{
+    width: 95%;
+    height: 85%;
+}
+.videopt{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videopt img{
+    width: 95%;
+    height: 85%;
+}
+.types{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+.three-types{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    width: 32%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.box1 img{
+    width: 100%;
+    height: 40%;
+}
+.offers{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.offers h3{
+    font-size: 25px;
+}
+.offerbx{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offerbx img{
+    width: 49%;
+    height: 100%;
+}
+.top-dest{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+
+}
+.top-dest h3{
+    font-size: 25px;
+}
+.city{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+.mumbai{
+    width: 32%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Mumbai.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mumbai a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hyderabad{
+    width: 32%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/hyderabad.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hyderabad a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.goa{
+    width: 32%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/goa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.goa a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.feature{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.feat{
+    width: 32%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.feat p{
+    font-size: 14px;
+    color:  rgb(133, 131, 131);
+}
+.feat a{
+    text-decoration: none;
+    color: rgb(38, 99, 178);
+}
+.footer{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links{
+    width: 80%;
+    height: 49%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.links ul{
+    width: 20%;
+}
+.links ul h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.links ul li{
+    list-style: none;
+   
+    margin-bottom: 15px;
+}
+.links ul li i{
+    color:rgb(133, 131, 131)
+}
+.links ul li a{
+    text-decoration: none;
+    color: rgb(133, 131, 131);
+}
+.para{
+    width: 80%;
+    height: 49%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.para p{
+    font-size: 15px;
+    color:  rgb(133, 131, 131);
+}
+.para a{
+    text-decoration: none;
+    color: rgb(38, 99, 178);
+}
+
+
+/* Responsive */
+@media(max-width:768px){
+    .nav1{
+        width: 95%;
+        height: 80px;
+    }
+    .nav1 nav img{
+        width: 25%;
+    }
+    .nav-end{
+        width: 50%;
+    }
+   .nav-end a{
+      font-size: 10px;
+   }
+   .nav2 p{
+    font-size: 16px;
+   }
+   .nav2 h3{
+    font-size: 22px;
+   }
+   .nav2 nav{
+    width: 95%;
+   }
+   .nav2 nav input{
+    width: 100px;
+   }
+   #ip1{
+    width: 80px;
+   }
+   .nav2 nav select{
+    width: 100px;
+   }
+   .nav2 nav select option{
+    font-size: 10px;
+   }
+   .nav2 nav button{
+    width: 90px;
+   }
+   .cities{
+    padding: 5px;
+   }
+   #a-hid{
+    display:none;
+   }
+   .discount{
+    width: 100%;
+   }
+   .video-div{
+    height: 750px;
+    flex-direction: column;
+   }
+   .txtpt{
+    width: 100%;
+    height: 48%;
+   }
+   .videopt{
+    width: 100%;
+    height: 48%;
+   }
+   .types{
+    height: 1000px;
+
+   }
+   .types h2{
+    text-align: center;
+   }
+   .three-types{
+    height: 900px;
+    flex-direction: column;
+
+   }
+   .types p{
+    text-align: center;
+   }
+   .box1{
+    width: 100%;
+    height: 32%;
+   }
+   .box1 img{
+    width: 98%;
+    height: 40%;
+   }
+   .offers{
+    width: 100%;
+    height: 750px;
+
+   }
+   .offerbx{
+    height: 650px;
+    flex-direction: column;
+   }
+   .offerbx img{
+    width: 95%;
+    height: 50%;
+   }
+   .top-dest{
+    height: 1000px;
+   }
+   .top-dest p{
+    text-align: center;
+   }
+   .city{
+    width: 95%;
+    height: 900px;
+    flex-direction: column;
+   }
+   .mumbai{
+    height: 32%;
+    width: 100%;
+   }
+   .hyderabad{
+    height: 32%;
+    width: 100%;
+   }
+   .goa{
+    height: 32%;
+    width: 100%;
+   }
+   .feature{
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+   }
+   .feat{
+    width: 100%;
+    align-items: center;
+   }
+   .links{
+    width: 95%;
+    height: 42%;
+
+   }
+   .links ul li{
+    margin-bottom: 2px;
+    
+   }
+   .links ul h3{
+    margin-bottom: 3px;
+   }
+   .links ul li a{
+    font-size: 12px;
+   }
+   .links ul h3{
+    font-size: 14px;
+   }
+   .para{
+    height: 55%;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .para p{
+    font-size: 11px;
+   }
+
+}
